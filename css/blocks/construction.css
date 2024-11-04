@@ -1,0 +1,34 @@
+.construction {
+    display: flex;
+}
+
+.construction__container--right {
+    padding: 40px 0 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.construction__btn-container {
+    display: flex;
+    gap: 40px;
+    margin-top: auto;
+}
+
+.construction__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.construction__link svg {
+    width: 20px;
+    height: 16px;
+}
+
+.construction__link span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}

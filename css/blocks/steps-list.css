@@ -1,0 +1,8 @@
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 14px;
+}

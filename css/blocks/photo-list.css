@@ -1,0 +1,19 @@
+.photo-list {
+    list-style: none;
+    margin: 0;
+    padding: 40px 40px 40px 0;
+
+    display: grid;
+    grid-template-columns: 160px 190px 160px 160px;
+    grid-template-rows: 220px 200px 160px;
+    gap: 30px;
+    border-right: 1px solid #053947;
+}
+
+.photo-list__item--size-m {
+    grid-column: span 2;
+}
+
+.photo-list__item--end {
+    grid-column: 3 / -1;
+}

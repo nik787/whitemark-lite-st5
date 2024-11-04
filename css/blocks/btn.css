@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #B68E6C;
+    text-align: right;
+}
+
+.btn--right {
+    text-align: left;
+}
+
+.btn__wrapper {
+    position: relative;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #B68E6C;
+    border-radius: 50%;
+}
+
+.btn__wrapper svg {
+    position: absolute;
+    top: calc(50% - 4.5px);
+    left: calc(50% - 9px);
+}
+
